@@ -90,7 +90,7 @@ public class Testing extends Activity implements View.OnClickListener {
         nav_draw = (DrawerLayout) findViewById(R.id.drawerlayout);
         temp_nav_list = (ListView) findViewById(R.id.id_lv_navDrawer);
         lv_string = getResources().getStringArray(R.array.options);
-        abdt = new ActionBarDrawerToggle(Testing.this,nav_draw,R.drawable.ic_launcher,0,0);
+        abdt = new ActionBarDrawerToggle(Testing.this,nav_draw,(Integer) null,0,0);
         temp_nav_list.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lv_string));
         temp_nav_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
