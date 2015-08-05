@@ -57,7 +57,7 @@ public class Preference  extends ListActivity {
         // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
 
-        Intent p = new Intent(Preference.this,AddTopic.class);
+        Intent p = new Intent(Preference.this,AddSubject.class);
         if(position==(topiclist.size()-1)){
             startActivityForResult(p, 0);
         }

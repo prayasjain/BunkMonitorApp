@@ -321,10 +321,7 @@ public class Testing extends Activity implements View.OnClickListener {
                 text[j][i].setWidth(m);
             }
         }
-
-
-
-}
+        }
 
     private void initialize() {
 
@@ -432,7 +429,7 @@ public class Testing extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-
+    	
         switch (v.getId()){
             case R.id.tv11:
                 p = new Intent(Testing.this,Preference.class);
